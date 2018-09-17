@@ -1,0 +1,7 @@
+version: '2'
+services:
+  nodejs-project-name:
+    image: ubuntu:14.04
+    build: .
+    volumes:
+    - .:/docker
